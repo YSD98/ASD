@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>ASD</title>
+    <title>Unity Web Player | ASD</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=1920 height=1080 tabindex="-1" style="width: 1920px; height: 1080px; background: #231F20"></canvas>
-    <script src="Build/V4_Test.loader.js"></script>
+    <canvas id="unity-canvas" width=1820 height=980 tabindex="-1" style="width: 1820px; height: 980px; background: #231F20"></canvas>
+    <script src="Build/V5_DEPLOY.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -26,9 +26,9 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/V4_Test.data",
-        frameworkUrl: "Build/V4_Test.framework.js",
-        codeUrl: "Build/V4_Test.wasm",
+        dataUrl: "Build/V5_DEPLOY.data",
+        frameworkUrl: "Build/V5_DEPLOY.framework.js",
+        codeUrl: "Build/V5_DEPLOY.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "YashD",
         productName: "ASD",
